@@ -81,6 +81,14 @@ MySql
     4. sudo apt-get install mysqltuner
     5. sudo apt-get remove mysql
 
+create database testdb;
+create user 'testuser'@'localhost' identified by 'password';
+grant all on testdb.* to 'testuser';
+
+create database testdb;
+grant all on testdb.* to 'testuser' identified by 'password';
+
+
 phpmyadmin
 --> 1. sudo apt-get install phpmyadmin
     2. sudo apt-get remove phpmyadmin
