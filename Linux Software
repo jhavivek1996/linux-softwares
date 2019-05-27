@@ -67,3 +67,25 @@ Skype
 DropBox
 --> 1. wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 	2. /.dropbox-dist/dropboxd
+
+Apache 2 web server
+--> 1. sudo apt-get install apache2
+    2. sudo service apache2 restart
+    3. sudo service apache2 stop
+    4. sudo apt-get remove apache2
+
+MySql 
+--> 1. sudo service mysql start
+--> 2. sudo service mysql stop
+    3. sudo service mysql start
+    4. sudo apt-get install mysqltuner
+    5. sudo apt-get remove mysql
+
+phpmyadmin
+--> 1. sudo apt-get install phpmyadmin
+    2. sudo apt-get remove phpmyadmin
+
+python connector
+--> 1. sudo apt-get install setuptools
+    2. pip3 install mysql-connector for mysql
+    3. pip3 install psycopg2
