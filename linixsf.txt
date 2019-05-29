@@ -98,7 +98,7 @@ phpmyadmin
 python connector
 --> 1. sudo apt-get install setuptools
     2. pip3 install mysql-connector for mysql
-    3. pip3 install psycopg2
+    3. pip3 install psycopg2 for postgreSQL
 
 Git
 --> 1. git init
