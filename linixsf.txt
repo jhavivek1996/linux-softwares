@@ -80,6 +80,8 @@ MySql
     3. sudo service mysql start
     4. sudo apt-get install mysqltuner
     5. sudo apt-get remove mysql
+    6. sudo /etc/init.d/mysql stop
+
 
 create database testdb;
 create user 'testuser'@'localhost' identified by 'password';
