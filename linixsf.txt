@@ -80,8 +80,6 @@ MySql
     3. sudo service mysql start
     4. sudo apt-get install mysqltuner
     5. sudo apt-get remove mysql
-    6. sudo /etc/init.d/mysql stop
-
 
 create database testdb;
 create user 'testuser'@'localhost' identified by 'password';
@@ -98,7 +96,7 @@ phpmyadmin
 python connector
 --> 1. sudo apt-get install setuptools
     2. pip3 install mysql-connector for mysql
-    3. pip3 install psycopg2 for postgreSQL
+    3. pip3 install psycopg2
 
 Git
 --> 1. git init
@@ -112,5 +110,7 @@ Apache server
 --> 1. sudo apt-get install apache2
     2. sudo /opt/lampp/lampp start
     3. sudo /etc/init.d/apache2 stop
+    4. sudo /etc/init.d/mysql stop
+    5. sudo  /opt/lampp/lampp restart
 
 
