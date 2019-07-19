@@ -113,4 +113,6 @@ Apache server
     4. sudo /etc/init.d/mysql stop
     5. sudo  /opt/lampp/lampp restart
 
-
+Python GUI
+--> 1. sudo apt-get install python3-tkinter
+    2. sudo apt-get install python3-pil.imagetk
